@@ -1,0 +1,1 @@
+# This file is used to save the trained model into cloud ,read the database from mangodb client
