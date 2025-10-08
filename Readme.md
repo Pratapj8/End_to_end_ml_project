@@ -31,6 +31,10 @@ Set up Project with Github
    - mention -e . in requirements.txt file right below the labraries
 
 6. Create a folder - src (to store the metada)
+   - create a __init__.py file inside src folder
+   - create a logger.py file inside src folder
+   - create a exception.py file inside src folder
+   - create a utils.py file inside src folder
 
 7. Create a __init__.py file inside src folder
 
@@ -42,13 +46,23 @@ Set up Project with Github
 7. Open terminal and install requirements , it will create a meta data folder
    -  pip install -r requirements.txt
 
-8.
+8.Create a folder inside src folder called components r nothing but modules for the project
+   - create a __init__.py file inside components folder
+   - create a data_ingestion.py file inside components folder (Extract)
+   - create a data_transformation.py file inside components folder (Transform)
+   - create a model_trainer.py file inside components folder (Train)
+   - create a model_evaluation.py file inside components folder (Evaluate)
+   - create a model_pusher.py file inside components folder (Push)
+
+9. Create a folder inside src folder - pipeline
+   - create a train_pipeline.py file inside pipeline folder
+   - create a predict_pipeline.py file inside pipeline folder
+   - create a __init__.py file inside pipeline folder
 
 
-
-
-
-
+10. Run the file to check each molude is working fine or not (always open new terminal from that folder/location) if you have not imported the labraries logs will not show (import loggings)
+   - python src/logger.py
+   - python exception.py
 
 
 
