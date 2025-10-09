@@ -64,7 +64,14 @@ Set up Project with Github
    - python src/logger.py
    - python exception.py
 
+11. EDA
 
+
+12. Data Ingestion (Reading the data from many sources)
+   -  python src/components/data_ingestion.py
+   - check the logs are getting generated or not 
+
+13.
 
 
 

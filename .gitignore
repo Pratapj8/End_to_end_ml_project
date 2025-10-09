@@ -55,6 +55,10 @@ cover/
 *.mo
 *.pot
 
+
+# folder
+.artifacts
+
 # Django stuff:
 *.log
 local_settings.py
